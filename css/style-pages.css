@@ -1,0 +1,336 @@
+.navbar .btn-primary.bt{
+    border: none;
+    color:#e08639!important
+}
+.navbar .btn-secondary{
+    border: none;
+    
+}
+.navbar-light .navbar-nav.navbar-nav2 .nav-link:hover{
+    color:red;
+    border-bottom:2px solid red;
+}
+body{
+    background: #cccccc30;
+}
+/* start new-email style */
+    .email{
+        
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        
+    }.email .middle .date{
+        border: none;
+        background: none;
+        width: 97%;
+    }
+    .email .middle i{
+        font-size: 1.5rem;
+        position: absolute;
+        left: 1rem;
+    }
+    .email .breadcrumb{
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 2%;
+        width: 80%;
+        margin:auto
+        
+    }
+    .email  .breadcrumb-item a{
+        margin-right: .5rem;
+        margin-top: .5rem;
+        color:#888;
+    }
+    .email .breadcrumb-item.active{
+        color:#000;
+    }
+    .email .email-content form .middle{
+        display: block;
+        width: 80%;
+        margin: 1.5rem auto;
+        background: #cccccc30;
+        border: 1px solid #c7c1c12e;
+        padding: .6rem .8rem;
+        position: relative;
+    }
+    .email .email-content form .hvr-rotate,
+    .email .email-content form .edit{
+        width: 23%;
+        background: #1d9a27;
+        color: #fff;
+}
+/* end new-email style */
+/* start email style */
+    .email .email-content img{
+        display: block;
+        margin: auto;
+    }
+    .email .email-content.em2{
+        text-align: center;
+    }.email .email-content form .summ{
+        text-align: right;
+        width: 80%;
+        display: block;
+        margin: 1.5rem auto;
+    }
+    .email .email-content form .summit2{
+        background: none;
+        border: none;
+    
+    }.email .email-content form .btn-primary,
+    .email .email-content form .btn-secondary{
+        padding-top: 0.8rem;
+        padding-bottom: .8rem;
+        width: 30%;
+        margin-left: 2%;
+        margin-bottom: 2.5rem;
+    }
+    .email .email-content form .btn-secondary{
+        background:#1d9a27;
+    }
+    .email .email-content form .btn-primary{
+        background: #2d3e50;
+    }
+/* end email style */
+/* start edit-information style */
+    .email .email-content form .edit{
+        background: #2d3e50;
+    }
+/* end edit-information style */
+/* start article-details style */
+    .article-details .article-details-information img{
+        margin: auto;
+        display: block;
+        width: 50%;
+        padding-top: 1.5rem;
+    }
+    .article-details .article-details-information .article-scape{
+        background: #2d3e50;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding: 1.1rem 1.5rem;
+        position: relative;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .article-details .article-details-information .article-scape p{
+        display: inline;
+        color: #fff;
+    }
+    .article-details .article-details-information .article-scape .love-icon{
+        position: absolute;
+        left: 1.5rem;
+        width: 48px;
+        top: .5rem;
+        border: 1px solid #fff;
+    }
+    .article-details .article-details-information .article-para{
+        background: #fff;
+        padding: .5rem;
+        border: 1px solid #ccc;
+    }
+    .article-details .article-details-information .article-para{
+        line-height: 1.8rem;
+        padding-left: 1rem;
+        margin-bottom: 1.9rem;
+    }
+    .article-head:after{
+        width: 121%;
+    }
+    /* end article-details style */
+    /* start contact-us style */
+        .contact-us .contact-us-content{
+            border: 1px solid #cccccc59;
+            background: #fff;
+            padding-bottom: 0.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .contact-us-content .btn-primary{
+            width: 100%;
+            background: #2d3e50;
+            border:none;
+            border-radius: none;
+            padding: .5rem;
+        }
+        .contact-us .contact-us-content img{
+            display: block;
+            margin: 1.5rem auto;
+            height: 30%;
+            
+        }
+        .contact-us .contact-us-content .contact-para{
+            border-top: 1px solid #cccccc59;
+            padding-top: 1.2rem;
+            padding-bottom: 1.5rem;
+            padding-right: 0.9rem;
+        }
+        .contact-us .contact-us-content h5{
+            text-align: center;
+            color: #cc1f24;
+        }
+        .contact-us .contact-us-content .contact-icons{
+            text-align: center;
+            padding-top: .8rem;
+        }
+        .contact-us .contact-us-content .contact-icons a{
+            margin-right: .5rem;
+            margin-left: .5rem;
+        }
+        .contact-us .contact-us-content .contact-icons a i{
+            font-size: 2rem;
+            color: #fff;
+           
+            padding: .3rem .6rem;
+        }
+        .contact-us .contact-us-content .contact-icons a .facebook{
+            background: #4242b5;
+            padding: .3rem 1rem;
+        }
+        .contact-us .contact-us-content .contact-icons a .twitter{
+            background: #29bdde;
+        }
+        .contact-us .contact-us-content .contact-icons a .youtube{
+            background: brown;
+        }
+        .contact-us .contact-us-content .contact-icons a .insta{
+            background: #d663d2;
+        }
+        .contact-us .contact-us-content .contact-icons a .whatts{
+            background: #56da56;
+        }
+        .contact-us .contact-us-content .contact-icons a .google{
+            background: #a52a2a;
+        }
+        .contact-us .contact-us-content form input,
+        .contact-us .contact-us-content form  textarea{
+            display: block;
+            margin: auto;
+            width: 97%;
+            margin-top: .7rem;
+            margin-bottom: .7rem;
+            padding: .3rem .5rem;
+            border: 1px solid #cccccc59;
+        }
+        .contact-us .contact-us-content form textarea{
+            height: 7.5rem;
+        }
+        .contact-us .contact-us-content form .btn-primary.btt{
+            
+            margin-bottom: 0rem;
+            margin-top: 1.5rem;
+            padding: .5rem;
+        }
+/* end contact-us style */
+/* start inside-order style */
+            .inside-order .inside{
+                background: #fff;
+                border: 1px solid #cccccc59;
+                padding: .3rem;
+            }
+            .inside-order .inside .inside-order-content{
+                border: 1px solid #cccccc59;
+                margin-bottom: 1.3rem;
+            }
+            .inside-order .inside .inside-order-content .var,
+            .inside-order .inside .inside-order-content .value{
+                height: 100%;
+                background: #cccccc30;
+                padding: .3rem;
+                
+                padding-top: 0.9rem;
+            }
+            .inside-order .inside .btn-primary{
+                display: block;
+                margin: auto;
+                width: 20%;
+                background: #2d3e50;
+                border: none;
+                padding: .7rem .5rem;
+            }
+            .inside-order .inside .inside-order-content .value{
+                background: #fff; 
+            }
+            .inside-order .inside .btn-primary{
+                display: block;
+                margin: auto;
+                width: 14%;
+                margin-bottom: 1.5rem;
+                background: #2d3e50;
+                border: none;
+            }
+            .inside-order .inside .article-para{
+                border: 1px solid #cccccc59;
+                padding: .3rem;
+            }
+    /* end contact-us style */
+    /* start donation-requests style */
+      .pagination{
+                justify-content: center;
+      }
+    
+      .pagination .page-item {
+        margin-right: .2rem;
+      }
+      .pagination .page-item .page-link:hover{
+          background:#2d3e50;
+          color:#fff;
+      }
+     .pagination .page-item .page-link{
+        color: #000;
+        font-size: 1.5rem;
+      }.donation-requests .donation .btn-primary{
+          color:#000;
+      }
+    /* end donation-requests style */
+    /* start about-us style */
+      .about-us .about-us-content{
+        border: 1px solid #cccccc59;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+        background: #fff;
+      }
+      .about-us .about-us-content img{
+          display: block;
+          margin: auto;
+          width: 30%;
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+      }
+      .about-us .about-us-content p{
+          padding: .6rem;
+      }
+    /* start about-us style */
+    /* start dropdown style */
+      .btn-group > button,
+      .btn-group > button:hover,
+      .btn-group > button:focus{
+          background:#2d3e50;
+          border: none;
+      }
+      
+      .dropdown-menu-right .dropdown-item{
+        padding: .5rem 0rem .5rem 3.5rem;
+        border-bottom: 1px solid #cccccc59;
+      }
+      .dropdown-menu-right .dropdown-item a i{
+          margin-left: .6rem;
+      }
+      .dropdown-menu-right .dropdown-item:hover{
+          background: #2d3e50;
+          
+      }
+      .dropdown-menu-right .dropdown-item:hover a,
+      .dropdown-menu-right .dropdown-item:hover a:hover{
+          color:#fff
+      }
+      .navbar-light .navbar-nav .welcome{
+        padding-left: 0rem;
+        padding-top: .3rem;
+        color: #e69026;
+      }
+      .btn-primary:hover,
+      .btn-secondary:hover{
+          color:#ef8a0d;;
+          transition: all .5s ease-in-out;
+      }
